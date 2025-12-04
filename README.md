@@ -36,9 +36,9 @@ To improve fairness and scoring stability:
 •	Each model was tuned with threshold optimization to maximize F1-score.
 •	Performance was measured on the test set only.
 •	Evaluation metrics:
-o	F1-Score (primary metric due to churn imbalance)
-o	ROC-AUC
-o	Best Decision Threshold
+ o	F1-Score (primary metric due to churn imbalance)
+ o	ROC-AUC
+ o	Best Decision Threshold
 
 6. Model Performance Summary
 Model	Test F1	ROC-AUC	Best Threshold
@@ -66,7 +66,7 @@ Based on the feature importance visualization, the LightGBM model identified the
 These features give the business clear, actionable targets for reducing churn.
 
 
-8. Final Deliverables
+9. Final Deliverables
 •	Cleaned dataset ready for production use
 •	Jupyter Notebook with full EDA, modeling, evaluation, and interpretations
 •	Model performance dashboard (comparison table)
