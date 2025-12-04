@@ -31,6 +31,7 @@ Four machine learning models were trained and evaluated:
 2.	Random Forest Classifier
 3.	XGBoost Classifier
 4.	LightGBM Classifier
+   
 To improve fairness and scoring stability:
 •	Each model was tuned with threshold optimization to maximize F1-score.
 •	Performance was measured on the test set only.
@@ -39,14 +40,14 @@ o	F1-Score (primary metric due to churn imbalance)
 o	ROC-AUC
 o	Best Decision Threshold
 
-5. Model Performance Summary
+6. Model Performance Summary
 Model	Test F1	ROC-AUC	Best Threshold
 LightGBM	0.66	0.64	0.99
 Random Forest	0.6562	0.6365	0.99
 XGBoost	0.6562	0.6365	0.99
 Logistic Regression	0.6385	0.5908	0.01
 
-6. Best Model: LightGBM
+7. Best Model: LightGBM
 LightGBM achieved the highest performance:
 •	F1-Score: 0.66 (highest)
 •	ROC-AUC: 0.64 (highest)
@@ -54,7 +55,7 @@ LightGBM achieved the highest performance:
 •	Fast training and good generalization
 This makes LightGBM the best model for deployment in the churn prediction system.
 
-7. Key Insights From the Model LightGBM
+8. Key Insights From the Model LightGBM
 Based on the feature importance visualization, the LightGBM model identified the following top predictors of customer churn:
 1. Customer Age – Younger customers churn more
 2. Tenure – New customers are at highest risk
