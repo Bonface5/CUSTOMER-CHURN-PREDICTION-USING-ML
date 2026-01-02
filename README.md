@@ -80,6 +80,18 @@ Other features like `High_Support_User`, `Last Interaction`, and `Late_Payer` al
 
 ---
 
+## Streamlit Web App Features
+-User-friendly input form
+-Real-time churn probability prediction
+-Risk classification:
+  -🟢 Low Risk (< 50%)
+  -🟡 Medium Risk (50% – 69%)
+  -🔴 High Risk (≥ 70%)
+-Churn probability explanation
+-Feature importance display (Top drivers of churn)
+
+---
+
 ## Conclusion
 The project successfully built a robust machine learning system for predicting customer churn. Random Forest emerged as the best-performing model, providing accurate predictions and interpretable insights for business decision-making.
 
